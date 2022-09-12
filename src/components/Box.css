@@ -1,0 +1,21 @@
+.box_wrapper {
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+.upper_box {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 75px;
+  border: 5px solid black;
+  gap: 75px;
+}
+.upper_box > input {
+  border-radius: 2px;
+  padding: 2px;
+  border: 1px solid black;
+}
+.down_box {
+  padding: 25px;
+}
